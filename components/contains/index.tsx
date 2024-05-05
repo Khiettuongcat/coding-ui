@@ -15,6 +15,11 @@ const SidebarLink = [
         url:"/profile",
         icons:<UserRound className='ml-4 text-'/> ,
         title:"Profile"
+    }, 
+    {
+        url:"/chatAi",
+        icons:<UserRound className='ml-4 text-'/> ,
+        title:"ChatAI"
     },
 
 ]
