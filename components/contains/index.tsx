@@ -1,4 +1,4 @@
-import { FolderKanban, Home, UserRound } from "lucide-react";
+import { FolderKanban, Home, Palette, UserRound } from "lucide-react";
 
 const SidebarLink = [
     {
@@ -20,6 +20,11 @@ const SidebarLink = [
         url:"/chatAi",
         icons:<UserRound className='ml-4 text-'/> ,
         title:"ChatAI"
+    },
+    {
+        url:"/themes",
+        icons:<Palette className='ml-4 text-'/> ,
+        title:"Themes"
     },
 
 ]
